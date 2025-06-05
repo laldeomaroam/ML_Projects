@@ -30,6 +30,15 @@ This is a production-ready AI-powered WhatsApp bot built using:
 
 ---
 
+## Prerequisites
+
+### 1. Create a Twilio Account with an API Key
+### 2. Create an OpenAI account with and API Key
+### 3. Register a phonenumber on WhatsApp
+### 4. Create an NGROK account and generate an auth token
+
+
+
 ## 🚀 Quick Start
 
 ### 1. Clone the repo
@@ -40,3 +49,7 @@ cd Whats_app_AI_Bot
 ```
 
 ### 2. Install [Ngrok](https://ngrok.com/downloads/)
+
+### 3. Install [Docker](https://www.docker.com/)
+
+### 4. 
