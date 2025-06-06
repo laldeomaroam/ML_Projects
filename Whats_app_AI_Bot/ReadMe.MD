@@ -87,6 +87,11 @@ Sandbox Configuration -> When a message comes in
 ### 10. Open a WhatsApp chat with the number provided from your Twilio account:
 ![Twilio WhatApp Number](https://github.com/laldeomaroam/ML_Projects/blob/main/Whats_app_AI_Bot/Twilio_WA.png)
 
-#### 10.1
+#### 10.1 Set up the Whats App Chat
 ![WhatsAPP Set UP](https://github.com/laldeomaroam/ML_Projects/blob/main/Whats_app_AI_Bot/WA_chat_setup.png)
 
+### 11. Initiate a conversation
+![Test Conversation test using OpenAI](https://github.com/laldeomaroam/ML_Projects/blob/main/Whats_app_AI_Bot/WA_chat_test1.png)
+
+### 12. Voice chat test (With Local LLM)
+![Test Voice Chat using the Local LLM](https://github.com/laldeomaroam/ML_Projects/blob/main/Whats_app_AI_Bot/WA_voicechat_test1.png)
