@@ -1,0 +1,9 @@
+Flask
+twilio
+openai
+google-cloud-translate
+pydub
+faster-whisper
+langdetect
+ollama
+python-dotenv
