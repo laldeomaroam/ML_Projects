@@ -63,7 +63,7 @@ GOOGLE_APPLICATION_CREDENTIALS=/app/gcloud-credentials.json
 ```
 pip install -r requirements.txt
 ```
-### 5.1 If you are using a Local LLM, Start Ollama
+#### 5.1 If you are using a Local LLM, Start Ollama
 ```
 ollama serve
 ollama run llama2  # or mistral, gemma, etc.
@@ -84,4 +84,9 @@ ngrok http 5000
 Sandbox Configuration -> When a message comes in
 ![Twilio webhook](https://github.com/laldeomaroam/ML_Projects/blob/main/Whats_app_AI_Bot/Twilio_update.png)
 
+### 10. Open a WhatsApp chat with the number provided from your Twilio account:
+![Twilio WhatApp Number](https://github.com/laldeomaroam/ML_Projects/blob/main/Whats_app_AI_Bot/Twilio_WA.png)
+
+#### 10.1
+![WhatsAPP Set UP](https://github.com/laldeomaroam/ML_Projects/blob/main/Whats_app_AI_Bot/WA_Chat_Setup.png)
 
