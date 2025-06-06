@@ -88,5 +88,5 @@ Sandbox Configuration -> When a message comes in
 ![Twilio WhatApp Number](https://github.com/laldeomaroam/ML_Projects/blob/main/Whats_app_AI_Bot/Twilio_WA.png)
 
 #### 10.1
-![WhatsAPP Set UP](https://github.com/laldeomaroam/ML_Projects/blob/main/Whats_app_AI_Bot/WA_Chat_Setup.png)
+![WhatsAPP Set UP](https://github.com/laldeomaroam/ML_Projects/blob/main/Whats_app_AI_Bot/WA_chat_setup.png)
 
