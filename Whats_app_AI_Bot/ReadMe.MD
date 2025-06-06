@@ -83,5 +83,3 @@ ngrok http 5000
 ### 9. Add that HTTPS address to the generated to you TWILIO accound
 Sandbox Configuration -> When a message comes in
 
-
-
