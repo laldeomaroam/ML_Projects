@@ -52,19 +52,36 @@ cd Whats_app_AI_Bot
 
 ### 3. Install [Docker](https://www.docker.com/)
 
-### 4. Build the container solution
+### 4. Create an .env file
+```
+TWILIO_ACCOUNT_SID=your_twilio_sid
+TWILIO_AUTH_TOKEN=your_twilio_auth
+OPENAI_API_KEY=your_openai_key  # Only needed if not using local LLM
+GOOGLE_APPLICATION_CREDENTIALS=/app/gcloud-credentials.json
+```
+### 5. Install dependencies:
+```
+pip install -r requirements.txt
+```
+### 5.1 If you are using a Local LLM, Start Ollama
+```
+ollama serve
+ollama run llama2  # or mistral, gemma, etc.
+```
+### 6. Build the container solution
 ```
  docker build -t whatsapp-bot .
 ```
-### 5. Run the solution 
+### 7. Run the solution 
 ```
  docker run --env-file .env -p 5000:5000 whatsapp-bot
 ```
-### 6. Run NGROK for the address forwarding
+### 8. Run NGROK for the address forwarding
 ```
 ngrok http 5000
 ```
-### 7. Add that HTTPS address to the generated to you TWILIO accound
+### 9. Add that HTTPS address to the generated to you TWILIO accound
+Sandbox Configuration -> When a message comes in
 
 
 
