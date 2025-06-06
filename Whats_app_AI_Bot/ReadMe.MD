@@ -82,5 +82,6 @@ ngrok http 5000
 ```
 ### 9. Add that HTTPS address to the generated to you TWILIO accound
 Sandbox Configuration -> When a message comes in
-[]("Twilio_update.png")
+![Twilio webhook](https://github.com/laldeomaroam/ML_Projects/blob/main/Whats_app_AI_Bot/Twilio_update.png)
+
 
