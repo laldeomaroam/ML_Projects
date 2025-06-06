@@ -52,4 +52,19 @@ cd Whats_app_AI_Bot
 
 ### 3. Install [Docker](https://www.docker.com/)
 
-### 4. 
+### 4. Build the container solution
+```
+ docker build -t whatsapp-bot .
+```
+### 5. Run the solution 
+```
+ docker run --env-file .env -p 5000:5000 whatsapp-bot
+```
+### 6. Run NGROK for the address forwarding
+```
+ngrok http 5000
+```
+### 7. Add that HTTPS address to the generated to you TWILIO accound
+
+
+
